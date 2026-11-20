@@ -1,0 +1,17 @@
+
+1. CSS file paths:
+
+- index.html:
+  href="styles.css"
+
+- pages/courses.html:
+  href="../styles.css"
+
+2. Selector for the completed course:
+
+.course-card[data-status="full"]
+
+Explanation:
+This selector matches the article element that has the class "course-card" and the attribute data-status with the value "full".
+
+It matches the CSS Foundations course card.
